@@ -1,0 +1,25 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    name: Publish binaries
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: ./setup.sh
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: rg35xx-plus-aarch64-SDL2-SDK-*.tar.xz
+        asset_name: mything
+        tag: ${{ github.ref }}
+        overwrite: true
+        body: "rg35xx-plus-aarch64-SDL2-SDK release ${{ github.ref }}"
