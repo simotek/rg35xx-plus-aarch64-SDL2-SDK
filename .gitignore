@@ -1,0 +1,3 @@
+# Ignore build dir and generated tarball
+rg35xx-plus-aarch64-SDL2-SDK-*
+arm-gnu-toolchain-11.3.rel1-x86_64-aarch64-none-linux-gnu.tar.xz
