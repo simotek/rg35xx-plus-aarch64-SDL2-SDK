@@ -40,3 +40,6 @@ fi
 
 inform "Creating archive"
 run_cmd tar -cvJf "$SDK_NAME-$VERSION.tar.xz" "$SDK_NAME-$VERSION/"
+
+inform "Created"
+ls "$SDK_NAME-$VERSION.tar.xz" 
