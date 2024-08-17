@@ -19,7 +19,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: rg35xx-plus-aarch64-SDL2-SDK-*.tar.xz
-        asset_name: mything
         tag: ${{ github.ref }}
         overwrite: true
-        body: "rg35xx-plus-aarch64-SDL2-SDK release ${{ github.ref }}"
+        file_glob: true
+        body: "rg35xx-plus-aarch64-SDL2-SDK release $tag"
