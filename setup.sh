@@ -39,4 +39,4 @@ else
 fi
 
 inform "Creating archive"
-tar -cvJf "$SDK_NAME-$VERSION.tar.xz" "$SDK_NAME-$VERSION/"
+run_cmd tar -cvJf "$SDK_NAME-$VERSION.tar.xz" "$SDK_NAME-$VERSION/"
