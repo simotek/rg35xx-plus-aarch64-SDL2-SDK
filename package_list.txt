@@ -83,6 +83,9 @@ http://ports.ubuntu.com/ubuntu-ports/pool/main/a/at-spi2-core/libatspi2.0-0_2.44
 http://ports.ubuntu.com/ubuntu-ports/pool/main/a/at-spi2-core/libatspi2.0-dev_2.44.0-3_arm64.deb
 http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavcodec58_4.4.2-0ubuntu0.22.04.1_arm64.deb
 http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavcodec-dev_4.4.2-0ubuntu0.22.04.1_arm64.deb
+http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavfilter7_4.4.2-0ubuntu0.22.04.1_arm64.deb
+http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavfilter-dev_4.4.2-0ubuntu0.22.04.1_arm64.deb
+http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavfilter-extra_4.4.2-0ubuntu0.22.04.1_arm64.deb
 http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavformat58_4.4.2-0ubuntu0.22.04.1_arm64.deb
 http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavformat-dev_4.4.2-0ubuntu0.22.04.1_arm64.deb
 http://ports.ubuntu.com/ubuntu-ports/pool/universe/f/ffmpeg/libavutil56_4.4.2-0ubuntu0.22.04.1_arm64.deb
